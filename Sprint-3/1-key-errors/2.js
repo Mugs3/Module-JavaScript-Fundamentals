@@ -10,7 +10,7 @@
 
 // Syntax errorError Unexpected number.=============> write the error message here
 
-// Means Function identifier should be a name not a number =============> explain this error message here
+// Means Function identifier should be a name not a number =============> explain this error message here.
 
 // Finally, correct the code to fix the problem
 

@@ -12,7 +12,7 @@ console.log(`The last digit of 42 is ${getLastDigit(42)}`);
 console.log(`The last digit of 105 is ${getLastDigit(105)}`);
 console.log(`The last digit of 806 is ${getLastDigit(806)}`);
 
-// Now run the code and compare the output to your prediction
+// Now run the code and compare the output to your prediction.
 // =============> write the output here
 // My prediction was close regarding line 10 as the value of num is not returned.
 // Explain why the output is the way it is
