@@ -11,6 +11,9 @@
 // Syntax errorError Unexpected number.=============> write the error message here
 
 // Means Function identifier should be a name not a number =============> explain this error message here.
+// Whats the difference between function identifier and parameter?
+// I believe function and identifier and parameter can be used interchangeably. So Parsing number 3 into the parameter would throw an error.
+// Changing number 3 to 'num' as a placeholder fixes the error
 
 // Finally, correct the code to fix the problem
 

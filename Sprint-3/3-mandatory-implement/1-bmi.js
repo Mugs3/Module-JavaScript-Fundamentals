@@ -19,7 +19,9 @@ function calculateBMI(weight, height) {
 }
 
 function calculateBMI(weight, height) {
-  return (weight / height).toFixed(1);
+  // return (weight / height).toFixed(1); - 1st attempt
+  return (weight / (height * height)).toString().slice(0, 4);
 }
+
 console.log(`the bmi of 70 and 2.99 is ${calculateBMI(70, 2.99)}`);
 console.log(`the bmi of 90 and 1.96 is ${calculateBMI(90, 1.96)}`);

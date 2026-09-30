@@ -1,7 +1,8 @@
 // Predict and explain first...
 
 // Why will an error occur when this program runs?
-// decimalNumber is called twice=============> write your prediction here
+// write your prediction here
+// This is because the variable name for the parameter and the cont is the same
 
 // Try playing computer with the example to work out what is going on
 
@@ -14,8 +15,9 @@ function convertToPercentage(decimalNumber) {
 
 console.log(decimalNumber);
 
-// decimalNumber has been declared as a function and a variable within function scope=============> write your explanation here
-//Removing const decimalNumber still returns Syntax error if still within the function scope so it's not restricted to the function
+//=============> write your explanation here
+//The decimalNumber is declared twice as a result, calling convertToPercentage function and passing a value gets assigned to parameter decimalNumber
+//So i had to move it outside of the function scope to remove restrictions
 
 // Finally, correct the code to fix the problem.
 // =============> write your new code here

@@ -10,7 +10,10 @@ function capitalise(str) {
 }
 console.log(capitalise("beautiful"));
 
-// function is assigned 2 arguments/values=============> write your explanation here
+// write your explanation here:
+// Syntax Error: Identifier 'Str' has been already been declared/assigned
+// The error means Str had already been identified in the function capitalise(str). Let str is assigning a second value which is causing that error message
+
 // =============> write your new code here
 
 function capitalise(str) {

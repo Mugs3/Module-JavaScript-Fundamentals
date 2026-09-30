@@ -9,7 +9,9 @@ function sum(a, b) {
 
 console.log(`The sum of 10 and 32 is ${sum(10, 32)}`);
 
-// Maybe that unassigned return; may cause the code not to run fully =============> write your explanation here
+// =============> write your explanation here
+// The return statement was placed before the expression hence the undefined outcome. The parsed argument is not receiving output.
+
 // Finally, correct the code to fix the problem
 //  =============> write your new code here
 function sum(a, b) {

@@ -25,7 +25,7 @@ const pence = paddedPenceNumberString
 console.log(`£${pounds}.${pence}`);*/
 
 // Revised code:
-function poundsToPence(penceString) {
+function toPounds(penceString) {
   const penceStringWithoutTrailingP = penceString.substring(
     0,
     penceString.length - 1,
@@ -43,6 +43,8 @@ function poundsToPence(penceString) {
 
   return `£${pounds}.${pence}`;
 }
-console.log(poundsToPence("499p"));
-console.log(poundsToPence("1009p"));
-console.log(poundsToPence("2999p"));
+console.log(toPounds("499p"));
+console.log(toPounds("1009p"));
+console.log(toPounds("2999p"));
+
+// updated function name
