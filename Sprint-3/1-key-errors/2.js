@@ -12,7 +12,7 @@
 
 // Means Function identifier should be a name not a number =============> explain this error message here.
 // Whats the difference between function identifier and parameter?
-// I believe function and identifier and parameter can be used interchangeably. So Parsing number 3 into the parameter would throw an error.
+// The parameter of a function must be name not number. So Parsing number 3 into the parameter would throw an error.
 // Changing number 3 to 'num' as a placeholder fixes the error
 
 // Finally, correct the code to fix the problem
@@ -20,6 +20,6 @@
 // =============> write your new code here
 
 function square(num) {
-  return (square = num * num);
+  return num * num;
 }
 console.log(square(3));
