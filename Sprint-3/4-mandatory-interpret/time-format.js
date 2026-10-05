@@ -40,4 +40,4 @@ function formatTimeDisplay(seconds) {
 
 // e) What is the return value of pad when it is called for the last time in this program?  Explain your answer
 // =============> write your answer here
-// The answer is 01 because of the final output for formatTimeDisplay(61) is 00:01:01. The assigned value of 1 with the length of 1, the numString = "0" + numString becomes 1
+// The answer is 01 because of the final output for formatTimeDisplay(61) is 00:01:01. The assigned value of 1 with the length of 1, the numString = "0" + numString becomes 01
