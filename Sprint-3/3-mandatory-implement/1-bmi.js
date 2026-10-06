@@ -26,4 +26,4 @@ function calculateBMI(weight, height) {
 
 //console.log(`the bmi of 70 and 2.99 is ${calculateBMI(70, 2.99)}`);
 //console.log(`the bmi of 90 and 1.96 is ${calculateBMI(90, 1.96)}`);
-console.log(`The BMI is ${calculateBMI(70,1.73)} `);
+console.log(`The BMI is ${calculateBMI(70, 1.73)} `);
